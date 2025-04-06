@@ -1,6 +1,6 @@
 # SW-MPN
 **Abstract**—Open set recognition (OSR) aims to identify unknown classes and distinguish known classes simultaneously. Existing prototype-based OSR methods still risk misclassifying unknown samples as known classes. Transformer-based OSR approaches, primarily using Vision Transformer (ViT), have been limited to visual tasks and struggle to handle intra-class diversity, making them unsuitable for audio datasets. To overcome these limitations, we propose a novel framework called multi-prototype network with Swin Transformer (SW-MPN). The network is developed based on a novel multi-prototype learning mechanism that combines Euclidean distance and dot product similarity to measure the relationship between samples and prototypes. Furthermore, SW-MPN employs the Swin Transformer as feature extractor and replaces its original classification head with a multi-prototype classifier. Our extensive evaluation on both visual and audio tasks shows that our approach significantly outperforms other baseline methods and obtains new state-of-the-art performance for OSR.
-![image](https://github.com/user-attachments/assets/859400e1-d6d0-4f71-9aab-030988c5ceeb)![image](https://github.com/user-attachments/assets/6deea38f-5bee-460b-b4f1-1fbe0bb76ee5)
+![image](https://github.com/user-attachments/assets/be53cc94-def2-488e-93a4-e51e3cfbc3a0)
 # Requirements
 First, install python 3.8 or higher. Then:
 ```shell
